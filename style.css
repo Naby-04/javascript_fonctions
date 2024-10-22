@@ -29,7 +29,8 @@ p {
   margin: 0;
 }
 /*----------------------- banner-section -----------------------*/
-#banner {
+#banner,
+#conclusion {
   background: #1d1d1d;
 }
 #banner img {
