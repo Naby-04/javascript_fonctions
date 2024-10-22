@@ -5,3 +5,5 @@
 // 3- Créez une fonction appelée "estPair" qui prend un nombre en paramètre et retourne true s'il est pair, sinon false. Testez cette fonction avec différents nombres et affichez le résultat dans la console.
 
 // 4- Créez une fonction appelée "calculerMoyenne" qui prend un tableau de nombres en paramètre et retourne leur moyenne. Testez cette fonction avec un tableau de nombres et affichez le résultat dans la console.
+
+function name(params) {}
