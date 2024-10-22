@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*------------------------- root -------------------------*/
+:root {
+  --primary-color: #ffeb52;
+  --secondary-color: #fdd812;
+  /* text color */
+  --text-dark: #2d2a06;
+  --text-gray: #888888;
+}
+/*------------------------- general css -------------------------*/
+main {
+  background: #fdd812;
+}
+section {
+  background: var(--secondary-color);
+  height: fit-content;
+}
+section:nth-child(even) {
+  background: var(--primary-color);
+}
+/*----------------------- banner-section -----------------------*/
+#banner {
+  background: #1d1d1d;
+}
+#banner img {
+  max-height: 100px;
+}
