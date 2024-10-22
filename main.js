@@ -6,4 +6,5 @@
 
 // 4- Créez une fonction appelée "calculerMoyenne" qui prend un tableau de nombres en paramètre et retourne leur moyenne. Testez cette fonction avec un tableau de nombres et affichez le résultat dans la console.
 
-function name(params) {}
+// Créons une fonction qui additionne deux valeurs.
+function addition(params) {}
