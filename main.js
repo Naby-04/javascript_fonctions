@@ -20,11 +20,13 @@ function calculMoyenne(numArray) {
     console.error("L'argument fourni n'est pas un tableau.");
     return; // Sort de la fonction si ce n'est pas un tableau
   }
+  console.log("l'utilisateur a bien renseigner un tableau.");
   // 2. Vérifions que le tableau n'est pas vide
   if (numArray.length === 0) {
     console.error("Le tableau est vide.");
     return; // Sort de la fonction si le tableau est vide
   }
+  console.log("l'utilisateur a bien renseigner un tableau non null.");
   // 3. Vérifier que tous les éléments sont des nombres
   for (let i = 0; i < numArray.length; i++) {
     if (typeof numArray[i] !== "number") {
@@ -32,6 +34,9 @@ function calculMoyenne(numArray) {
       return; // Sort de la fonction si un element n'est pas un nombre
     }
   }
+  console.log(
+    "l'utilisateur a bien renseigner un tableau non null et ne comportant que des nombres."
+  );
   // 4. Calculer la somme et la moyenne
   let somme = 0;
   for (let i = 0; i < numArray.length; i++) {
@@ -39,7 +44,8 @@ function calculMoyenne(numArray) {
   }
   let moyenne = somme / numArray.length;
   // 5. Afficher la moyenne dans la console
-  console.log("La moyenne est : " + moyenne);
+  // console.log("La moyenne est : " + moyenne);
   // retourner la moyenne
   return moyenne;
 }
+console.log("la moyenne est de: " + calculMoyenne([12, 10, 15]));
